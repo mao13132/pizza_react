@@ -1,0 +1,79 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.field label {
+    color: #c4c4c4;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text-secondary-color);
+    text-align: center;
+    font-size: 14px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.error {
+    background-color: rgba(250, 80, 80, 0.555);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 7px 9px 1px rgba(233, 233, 233, 0.85);
+    max-width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    animation-name: animate-error;
+    animation-duration: 0.5s;
+    cursor: pointer;
+}
+.play-over {
+    
+    animation-name: animate-over;
+    animation-duration: 0.5s;
+}
+
+@keyframes animate-error {
+    0% {
+        top: -400px;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+
+@keyframes animate-over {
+    0% {
+        top: 50px;
+    }
+
+    100% {
+        top: -400px;
+    }
+}

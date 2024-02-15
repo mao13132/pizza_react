@@ -1,0 +1,111 @@
+.head {
+    position: relative;   
+    min-height: 165px;
+    background-size: cover; /*cover ширина и высота помястятся contain маштабируется что бы 1 сторона полностью уместилась  */
+    background-repeat: no-repeat;
+    border-radius: 19px;
+    
+}
+
+.card {
+    background: var(--white-color);
+    border-radius: 19px;
+    box-shadow: 18.21px 18.21px 36.42px 0px rgba(211, 209, 216, 0.25);
+    width: 320px;
+}
+
+.footer {
+    padding: 12px;
+}
+.title {
+     
+    color: var(--text-color);
+    font-size: 18.214px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+.description {
+    
+    color: var(--text-secondary-color);
+    font-size: 14.571px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.price {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--white-color);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #111719;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price:hover {
+    box-shadow: 0px 0px 9px 2px rgb(21 255 0 / 68%);
+}
+
+
+.currency {
+    color: var(--primary-color);
+}
+
+.rating {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -13px;
+    left: 15px;
+    background: var(--white-color);
+    padding: 2px 0px 0px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #111719;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    width: 60px;
+    box-shadow: 0px 0px 9px 2px rgba(3, 3, 3, 0.25)
+}
+
+.rating-icon {
+    width: 40%;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    padding-bottom: -100px;
+}
+
+.add-to-cart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--primary-color);
+    border-radius: 50px;
+    width: 34px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: var(--primary-hover-color);
+    box-shadow: 0px 0px 9px 2px rgb(21 255 0 / 68%);
+}
+
+.icon-add {
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+}
